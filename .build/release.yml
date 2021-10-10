@@ -25,4 +25,4 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: true
-    arguments: '-p:PublishSingleFile=true --self-contained false'
+    arguments: ' -r win-x64 -p:PublishSingleFile=true --self-contained false'
