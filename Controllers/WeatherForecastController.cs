@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreAngular.Controllers;
+namespace AspNetCoreAngular.Controllers{
 
 [ApiController]
 [Route("[controller]")]
@@ -29,4 +29,5 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+}
 }
